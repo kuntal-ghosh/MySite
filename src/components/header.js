@@ -2,7 +2,29 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import header_image from "../images/profile_kuntal.jpg"
-
+import {
+  SiJavascript,
+  SiAngular,
+  SiReact,
+  SiNodeDotJs,
+  SiPython,
+  SiDjango,
+  SiNpm,
+  SiYarn,
+  SiWebpack,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiStrapi,
+  SiGithub,
+  SiGatsby,
+  SiFlutter,
+  SiDart,
+  SiTypescript,
+  SiLinkedin,
+  SiYoutube,
+  SiMedium,
+} from "react-icons/si"
 const Header = ({ siteTitle }) => (
   // <header
   //   style={{
@@ -34,16 +56,16 @@ const Header = ({ siteTitle }) => (
   <header className="header text-center">
     <div className="force-overflow">
       <h1 className="blog-name pt-lg-4 mb-0">
-        <Link to="/">Tarikul Islam</Link>
+        <Link to="/">Kuntal Ghosh</Link>
       </h1>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#navigation"
           aria-controls="navigation"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
@@ -55,30 +77,42 @@ const Header = ({ siteTitle }) => (
               src={header_image}
               alt="header'spicture"
             />
-            <div className="bio mb-3">
-              Hi, my name is Tarikul Islam and I'm a Mobile Application
-              Developer. Welcome to my personal website!
+            <div className="bio mb-3 font-weight-light text-">
+              Hi, my name is Kuntal Ghosh and I'm a Full-Stack Mobile & Web
+              Application Developer. Welcome to my personal website!
             </div>
             {/* <!--//bio--> */}
             <ul className="social-list list-inline py-2 mx-auto">
               <li className="list-inline-item">
-                <a href="https://github.com/Tarikul711">
-                  <i className="fab fa-github-alt fa-fw"></i>
+                <a
+                  href="https://github.com/kuntal-ghosh"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiGithub />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://stackoverflow.com/users/5921109/md-tarikul-islam">
-                  <i className="fab fa-stack-overflow fa-fw"></i>
+                <a
+                  href="https://medium.com/@kuntalghosh.ewu"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiMedium />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://www.linkedin.com/in/md-tarikul-islam-5192b713a/">
-                  <i className="fab fa-linkedin-in fa-fw"></i>
+                <a
+                  href="https://www.linkedin.com/in/kuntal-ghosh/"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiLinkedin />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://medium.com/@tarikul711">
-                  <i className="fab fa-medium-m"></i>
+                <a
+                  href="https://www.youtube.com/channel/UC96pPZxWZforxHE6yNC8ZtQ?view_as=subscriber"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiYoutube />
                 </a>
               </li>
               {/* <!-- <li className="list-inline-item"><a href="#"><i className="fab fa-twitter fa-fw"></i></a></li> --> */}

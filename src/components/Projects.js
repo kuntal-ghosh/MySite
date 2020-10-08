@@ -24,7 +24,50 @@ const Projects = () => {
   function toggleCategories() {
     if (activeTab === 0) {
       return (
-        <div className="projects-grid" style={{ display: "flex" ,justifyContent: "space-between"}}>
+        <div
+          className="projects-grid"
+          style={{ display: "flex", justifyContent: "space-between",flexWrap:"wrap" }}
+        >
+          <Card
+            className="item"
+            shadow={5}
+            // style={{ minWidth: "450", margin: "auto" }}
+          >
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+
+                background:
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1571187011/crwn_clothing_qmz9ii.png) center / cover",
+              }}
+            >
+              crwn-cloning
+            </CardTitle>
+            <CardText>
+              crwn-cloning is a E-Commerce Website that is developed using
+              modern technologies such as React.js,Firebase,Sass
+            </CardText>
+            <CardActions className="card-action" border>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                }
+              >
+                Github
+              </Button>
+              <Button
+                colored
+                onClick={() => handleClick("https://crwn-cloning.vercel.app")}
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
           {/* Project 1 */}
           <Card
             className="item"
@@ -55,7 +98,12 @@ const Projects = () => {
               >
                 Github
               </Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                onClick={() => handleClick("https://crwn-cloning.vercel.app")}
+              >
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -94,7 +142,12 @@ const Projects = () => {
                 GitHub
               </Button>
 
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                onClick={() => handleClick("https://the-burger-app.vercel.app")}
+              >
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -130,7 +183,14 @@ const Projects = () => {
               >
                 GitHub
               </Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                }
+              >
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />

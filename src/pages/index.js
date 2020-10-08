@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import profile from "../images/profile-lg.jpg"
+import profile from "../images/profile_img.jpg"
+import asp from "../images/asp.png"
+
 import "react-mdl/extra/material.css"
 import "react-mdl/extra/material.js"
 
@@ -35,7 +37,12 @@ import {
   SiFlutter,
   SiDart,
   SiTypescript,
+  SiDotNet,
+  SiCsharp,
+  SiCplusplus,
 } from "react-icons/si"
+
+import { FaArrowCircleRight } from "react-icons/fa"
 // import SiJavascript from "react-icons/lib/fa/beer"
 
 // import { SiJavascript } from "react-icons/fa"
@@ -55,24 +62,40 @@ const IndexPage = () => (
       <div className="container">
         <div className="profile-teaser media flex-column flex-lg-row">
           <div className="media-body">
-            <h2 className="name font-weight-bold mb-1">Tarikul Islam</h2>
-            <div className="tagline mb-3">Mobile Application Developer</div>
-            <div className="bio mb-4">
-              I'm a software engineer specialised in native android and
-              flutter(hybrid)development for complex scalable Mobile apps. I
-              write about software development on
+            <h2 className="name font-weight-bold mb-1">KUNTAL GHOSH</h2>
+            <div className="tagline mb-3">
+              Web & Mobile Application Developer
+            </div>
+            <div
+              className="bio mb-4 "
+              style={{ fontSize: "14px", textAlign: "justify" }}
+            >
+              I'm a software engineer specialised in Web Application Development
+              for complex scalable Web Apps.I also develop cross platform Mobile
+              Apps.I am motivated and enthusiastic by new challenges and complex
+              projects and take excellent approach to achieve success in all
+              projects.I write about software development on
               <a
                 className="link-on-bg ml-1"
                 href="devcard/bs4/2-2/blog-home.html"
+                style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
               >
                 my blog
               </a>
               . Want to know how I may help your project? Check out my project
-              <a className="link-on-bg ml-1 mr-1" href="index.html">
+              <a
+                className="link-on-bg ml-1 mr-1"
+                href="index.html"
+                style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+              >
                 portfolio
               </a>
               and
-              <a className="link-on-bg ml-1" href="devcard/bs4/2-2/resume.html">
+              <a
+                className="link-on-bg ml-1"
+                href="devcard/bs4/2-2/resume.html"
+                style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+              >
                 online resume
               </a>
             </div>
@@ -80,10 +103,13 @@ const IndexPage = () => (
             <div className="mb-4">
               <Link
                 className="btn btn-primary mr-2 mb-3"
-                className="btn btn-primary mr-2 mb-3"
                 to="/portfolio"
+                // style={{ padding: "20px 20px" }}
               >
-                <i className="fas fa-arrow-alt-circle-right mr-2"></i>
+                {/* <FaArrowCircleRight
+                  className="mr-2 "
+                  style={{ fontSize: "15px" }}
+                /> */}
                 <span className="d-none d-md-inline">View</span> Portfolio
               </Link>
               <Link
@@ -112,27 +138,37 @@ const IndexPage = () => (
       <div className="container">
         <h2 className="section-title font-weight-bold mb-3">What I do</h2>
         <div className="section-intro mb-5">
-          I have more than 3 years' experience building mobile apps for clients
-          all over the world. Below is a quick overview of my main technical
-          skill sets and technologies I use. Want to find out more about my
-          experience? Check out my
-          <a href="devcard/bs4/2-2/resume.html">online resume</a> and
-          <a href="devcard/bs4/2-2/portfolio.html">project portfolio</a>.
+          I have more than 3 years of experience in building applications for
+          clients all over the world. Below is a quick overview of my main
+          technical skill sets and technologies I use. Want to find out more
+          about my experience? Check out my{" "}
+          <a
+            href="devcard/bs4/2-2/resume.html"
+            style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+          >
+            online resume
+          </a>{" "}
+          and{" "}
+          <a
+            href="devcard/bs4/2-2/portfolio.html"
+            style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+          >
+            project portfolio
+          </a>
+          .
         </div>
         <div className="row">
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <SiJavascript />
+                <SiJavascript className="mr-2" />
+                <SiTypescript />
               </div>
               <h3 className="item-title">Vanilla JavaScript</h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+
-                <a className="theme-link" href="https://fontawesome.com/">
-                  FontAwesome 5 free icons
-                </a>
-                available. Aenean commodo ligula eget dolor.
+                Javascript is everywhere.I have built several dynamic
+                application using worlds most used programming language for
+                clients.
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -141,17 +177,15 @@ const IndexPage = () => (
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <SiAngular />
-                <SiReact />
+                <SiAngular className="mr-2" />
+                <SiReact className="mr-2" />
+                <SiGatsby />
               </div>
               <h3 className="item-title">Angular &amp; React </h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+
-                <a className="theme-link" href="https://fontawesome.com/">
-                  FontAwesome 5 free icons
-                </a>
-                available. Aenean commodo ligula eget dolor.
+                SPA is here to make developers life easy and provide customer
+                most secured and robust applications. I have developed several
+                secure applications using react and angular.
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -160,26 +194,23 @@ const IndexPage = () => (
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <SiNodeDotJs />
+                <SiNodeDotJs className="mr-2" />
                 <SiStrapi />
               </div>
               <h3 className="item-title">Node.js</h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+
-                <a className="theme-link" href="https://fontawesome.com/">
-                  FontAwesome 5 free icons
-                </a>
-                available. Aenean commodo ligula eget dolor.
+                If you want to handle your vast amount of data in asyncrous way
+                then node.js is the choice for you.I have built apis using
+                Node.js for my clients.
               </div>
             </div>
             {/* <!--//item-inner--> */}
           </div>
           {/* <!--//item--> */}
-          <div className="item col-6 col-lg-3">
+          {/* <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <SiPython />
+                <SiPython className="mr-2"/>
                 <SiDjango />
               </div>
               <h3 className="item-title">Python &amp; Django</h3>
@@ -192,25 +223,26 @@ const IndexPage = () => (
                 available. Aenean commodo ligula eget dolor.
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!--//item--> */}
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
                 {/* <img
-                    src="webpack.png"
-                    style="width: 40px; margin-top: -8px;"
-                    className="mr-2"
-                  /> */}
+                  src={asp}
+                  style={{ width: "35px", marginTop: "-8px" }}
+                  className="mr-2"
+                /> */}
+                <SiCsharp className="mr-2" />
+                <SiCplusplus className="mr-2" />
+
+                <SiDotNet />
               </div>
               <h3 className="item-title">Asp.Net Core</h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+
-                <a className="theme-link" href="https://fontawesome.com/">
-                  FontAwesome 5 free icons
-                </a>
-                available. Aenean commodo ligula eget dolor.
+                If you want to built enterprise level applications then .Net is
+                the way to go.I have worked on large applications like HRM
+                software and POS sysem using this technology.
               </div>
             </div>
           </div>
@@ -218,9 +250,10 @@ const IndexPage = () => (
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <SiNpm />
-                <SiYarn />
-                <SiWebpack />
+                <SiNpm className="mr-2" />
+                <SiYarn className="mr-2" />
+                <SiWebpack className="mr-2" />
+                <SiGithub />
                 {/* <img
                   src="webpack.png"
                   style={ {width: "40px", marginTop: "-8px"}}
@@ -229,8 +262,10 @@ const IndexPage = () => (
               </div>
               <h3 className="item-title">npm, Yarn &amp; Webpack</h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+ available. Aenean commodo ligula eget dolor.
+                Webpack is used to bundle our codes and make our application
+                production ready.I have built vanila Javascript application and
+                bundled that using webpack.npm and yarn has made developers life
+                easy byprovideing the opportuniity to work with others code.
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -239,17 +274,13 @@ const IndexPage = () => (
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <SiHtml5 /> <SiCss3 />
-                <SiSass />
+                <SiHtml5 className="mr-2" /> <SiCss3 className="mr-2" />
+                <SiSass className="mr-2" />
               </div>
-              <h3 className="item-title">HTML &amp; CSS</h3>
+              <h3 className="item-title">HTML5,CSS3 &amp; Sass</h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+
-                <a className="theme-link" href="https://fontawesome.com/">
-                  FontAwesome 5 free icons
-                </a>
-                available. Aenean commodo ligula eget dolor.
+                I have done PSD,XD and Figma to HTML conversion using modern
+                Css3 and Sass.{" "}
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -258,16 +289,13 @@ const IndexPage = () => (
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
               <div className="item-icon">
-                <i className="fab fa-sass mr-2"></i>
+                <SiDart className="mr-2" />
+                <SiFlutter />
               </div>
-              <h3 className="item-title">Sass</h3>
+              <h3 className="item-title">Dart &amp; Flutter</h3>
               <div className="item-desc">
-                List skills/technologies here. You can change the icon above to
-                any of the 1500+
-                <a className="theme-link" href="https://fontawesome.com/">
-                  FontAwesome 5 free icons
-                </a>
-                available. Aenean commodo ligula eget dolor.
+                I have worked this awesome technologiy to build Mobile
+                Application.
               </div>
             </div>
             {/* <!--//item-inner--> */}
@@ -275,12 +303,12 @@ const IndexPage = () => (
           {/* <!--//item--> */}
         </div>
         {/* <!--//row--> */}
-        <div className="text-center py-3">
+        {/* <div className="text-center py-3">
           <a href="devcard/bs4/2-2/services.html" className="btn btn-primary">
             <i className="fas fa-arrow-alt-circle-right mr-2"></i>Services &amp;
             Pricing
           </a>
-        </div>
+        </div> */}
       </div>
       {/* <!--//container--> */}
     </section>
