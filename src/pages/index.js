@@ -34,8 +34,8 @@ import {
   SiGatsby,
   SiFlutter,
   SiDart,
-  SiTypescript
-} from "react-icons/Si"
+  SiTypescript,
+} from "react-icons/si"
 // import SiJavascript from "react-icons/lib/fa/beer"
 
 // import { SiJavascript } from "react-icons/fa"
