@@ -15,16 +15,7 @@ import {
   JsSquare,
 } from "@fortawesome/free-solid-svg-icons"
 // import { SiJavascript } from "react-icons"
-import {
-  FaRegEnvelope,
-  FaGoogle,
-  FaLinkedinIn,
-  FaTwitter,
-  FaFacebookF,
-  FaAngellist,
-  FaRss,
-  DiJavascript1,
-} from "react-icons/fa"
+
 import {
   SiJavascript,
   SiAngular,
@@ -75,7 +66,7 @@ const IndexPage = () => (
                 href="devcard/bs4/2-2/blog-home.html"
               >
                 my blog
-              </a>{" "}
+              </a>
               . Want to know how I may help your project? Check out my project
               <a className="link-on-bg ml-1 mr-1" href="index.html">
                 portfolio
