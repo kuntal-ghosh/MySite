@@ -26,10 +26,191 @@ const Projects = () => {
       return (
         <div
           className="projects-grid"
-          style={{ display: "flex", justifyContent: "space-between",flexWrap:"wrap" }}
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
         >
+          {/* travel buddy */}
           <Card
-            className="item"
+            className="item mb-5"
+            shadow={5}
+            // style={{ minWidth: "450", margin: "auto" }}
+          >
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+
+                background:
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168420/travel_guru_ktyevt.png) center / cover",
+              }}
+            >
+              crwn-cloning
+            </CardTitle>
+            <CardText>
+              crwn-cloning is a E-Commerce Website that is developed using
+              modern technologies such as React.js,Firebase,Sass
+            </CardText>
+            <CardActions className="card-action" border>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                }
+              >
+                Github
+              </Button>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://travel-buddy-bde9d.web.app")
+                }
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* volunteer network */}
+
+          <Card
+            className="item mb-5"
+            shadow={5}
+            // style={{ minWidth: "450", margin: "auto" }}
+          >
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+
+                background:
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168649/voluteer-network_j3po6k.png) center / cover",
+              }}
+            >
+              crwn-cloning
+            </CardTitle>
+            <CardText>
+              crwn-cloning is a E-Commerce Website that is developed using
+              modern technologies such as React.js,Firebase,Sass
+            </CardText>
+            <CardActions className="card-action" border>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                }
+              >
+                Github
+              </Button>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://volunteer-network-5bf2f.web.app")
+                }
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Ema John */}
+
+          <Card
+            className="item mb-5"
+            shadow={5}
+            // style={{ minWidth: "450", margin: "auto" }}
+          >
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+
+                background:
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168653/emajhn_nmw7vx.png) center / cover",
+              }}
+            >
+              crwn-cloning
+            </CardTitle>
+            <CardText>
+              crwn-cloning is a E-Commerce Website that is developed using
+              modern technologies such as React.js,Firebase,Sass
+            </CardText>
+            <CardActions className="card-action" border>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                }
+              >
+                Github
+              </Button>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://ema-john.firebaseapp.com/shop")
+                }
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Catalyzr */}
+
+          <Card
+            className="item mb-5"
+            shadow={5}
+            // style={{ minWidth: "450", margin: "auto" }}
+          >
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+
+                background:
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602167958/catalyzr_ekcbun.png) center / cover",
+              }}
+            >
+              crwn-cloning
+            </CardTitle>
+            <CardText>
+              crwn-cloning is a E-Commerce Website that is developed using
+              modern technologies such as React.js,Firebase,Sass
+            </CardText>
+            <CardActions className="card-action" border>
+              <Button
+                colored
+                onClick={() =>
+                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                }
+              >
+                Github
+              </Button>
+              <Button
+                colored
+                onClick={() => handleClick("https://crwn-cloning.vercel.app")}
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Crwn Clothing */}
+          <Card
+            className="item mb-5"
             shadow={5}
             // style={{ minWidth: "450", margin: "auto" }}
           >
@@ -68,39 +249,45 @@ const Projects = () => {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Project 1 */}
+
+          {/* My Site */}
+
           <Card
-            className="item"
+            className="item mb-5"
             shadow={5}
-            // style={{ minWidth: "450", margin: "auto" }}
+            //  style={{ minWidth: "450", margin: "auto" }}
           >
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
-
                 background:
-                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1571187011/crwn_clothing_qmz9ii.png) center / cover",
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602169077/mysite_tuqisk.png) center / cover",
               }}
             >
-              crwn-cloning
+              Burger-Builder
             </CardTitle>
+
             <CardText>
-              crwn-cloning is a E-Commerce Website that is developed using
-              modern technologies such as React.js,Firebase,Sass
+              Burger-Builder is a Burger selling resturant website that is
+              especialy designed for burger lovers whose love to customize their
+              burger according to their desire.
             </CardText>
             <CardActions className="card-action" border>
               <Button
                 colored
                 onClick={() =>
-                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                  handleClick("https://github.com/kuntal-ghosh/The-Burger-App")
                 }
               >
-                Github
+                GitHub
               </Button>
+
               <Button
                 colored
-                onClick={() => handleClick("https://crwn-cloning.vercel.app")}
+                onClick={() =>
+                  handleClick("https://my-site-jcmqzuw44.vercel.app")
+                }
               >
                 Live Demo
               </Button>
