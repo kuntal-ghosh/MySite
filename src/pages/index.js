@@ -160,7 +160,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiJavascript className="mr-2" />
                 <SiTypescript />
               </div>
@@ -176,7 +176,7 @@ const IndexPage = () => (
           {/* <!--//item--> */}
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiAngular className="mr-2" />
                 <SiReact className="mr-2" />
                 <SiGatsby />
@@ -193,7 +193,7 @@ const IndexPage = () => (
           {/* <!--//item--> */}
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiNodeDotJs className="mr-2" />
                 <SiStrapi />
               </div>
@@ -209,7 +209,7 @@ const IndexPage = () => (
           {/* <!--//item--> */}
           {/* <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiPython className="mr-2"/>
                 <SiDjango />
               </div>
@@ -227,7 +227,7 @@ const IndexPage = () => (
           {/* <!--//item--> */}
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 {/* <img
                   src={asp}
                   style={{ width: "35px", marginTop: "-8px" }}
@@ -249,7 +249,7 @@ const IndexPage = () => (
 
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiNpm className="mr-2" />
                 <SiYarn className="mr-2" />
                 <SiWebpack className="mr-2" />
@@ -273,7 +273,7 @@ const IndexPage = () => (
           {/* <!--//item--> */}
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiHtml5 className="mr-2" /> <SiCss3 className="mr-2" />
                 <SiSass className="mr-2" />
               </div>
@@ -288,7 +288,7 @@ const IndexPage = () => (
           {/* <!--//item--> */}
           <div className="item col-6 col-lg-3">
             <div className="item-inner">
-              <div className="item-icon">
+              <div className="item-icon mb-2">
                 <SiDart className="mr-2" />
                 <SiFlutter />
               </div>
