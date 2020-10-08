@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => (
 
   <header className="header text-center">
     <div className="force-overflow">
-      <h1 className="blog-name pt-lg-4 mb-0">
+      <h1 className="blog-name pt-lg-4 mb-0 d-none d-lg-block">
         <Link to="/">Kuntal Ghosh</Link>
       </h1>
       <nav className="navbar navbar-expand-lg navbar-dark">
@@ -65,7 +65,7 @@ const Header = ({ siteTitle }) => (
           data-toggle="collapse"
           data-target="#navigation"
           aria-controls="navigation"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
