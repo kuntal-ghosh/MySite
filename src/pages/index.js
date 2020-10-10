@@ -8,6 +8,12 @@ import "react-mdl/extra/material.js"
 
 import Layout from "../components/layout"
 import Projects from "../components/Projects"
+import Blog1 from "../images/blog-post-thumb-1.jpg"
+
+import Blog2 from "../images/blog-post-thumb-card-1.jpg"
+
+import Blog3 from "../images/blog-post-thumb-4.jpg"
+
 // import Image from "../components/image"
 // import SEO from "../components/seo"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -333,7 +339,7 @@ const IndexPage = () => (
             <div className="card blog-post-card">
               <img
                 className="card-img-top"
-                src="devcard/bs4/2-2/assets/images/blog/blog-post-thumb-card-1.jpg"
+                src={Blog1}
                 alt="kuntal's picture"
               />
               <div className="card-body">
@@ -368,7 +374,7 @@ const IndexPage = () => (
             <div className="card blog-post-card">
               <img
                 className="card-img-top"
-                src="devcard/bs4/2-2/assets/images/blog/blog-post-thumb-card-2.jpg"
+                src={Blog2}
                 alt="kuntal's Picture"
               />
               <div className="card-body">
@@ -401,11 +407,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md-4 mb-5">
             <div className="card blog-post-card">
-              <img
-                className="card-img-top"
-                src="devcard/bs4/2-2/assets/images/blog/blog-post-thumb-card-3.jpg"
-                alt="blog picture"
-              />
+              <img className="card-img-top" src={Blog3} alt="blog picture" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a
