@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
+import Projects from "../components/Projects"
+import { Link } from "gatsby"
 
 const Portfolio = () => {
   return (
@@ -9,22 +11,18 @@ const Portfolio = () => {
           <h2 className="heading">Portfolio</h2>
           <div className="intro">
             <p>
-              Welcome to my online portfolio. Lorem ipsum dolor sit amet,
-              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-              I'm taking on freelance work at the moment. Want some help
-              building your software?
+              Welcome to my online portfolio.Here you will find products that i
+              have built for my clients and for open source community. I'm
+              taking on freelance work at the moment. Want some help building
+              your software?
             </p>
           </div>
-          <a
-            className="btn btn-primary"
-            href="../../../devcard/bs4/2-2/contact.html"
-            target="_blank"
-          >
-            <i className="fas fa-paper-plane mr-2"></i>Hire Me
-          </a>
+          <Link className="btn btn-primary" to="/Contact">
+            Hire Me
+          </Link>
         </div>
       </section>
-      <section className="projects-list px-3 py-5 p-md-5">
+      {/* <section className="projects-list px-3 py-5 p-md-5">
       <div className="container">
           <div className="text-center">
             <ul id="filters" className="filters mb-5 mx-auto pl-0">
@@ -40,7 +38,17 @@ const Portfolio = () => {
             </ul>
           </div>
           </div>
-        </section>
+        </section> */}
+      <section className="projects-list px-3 py-5 p-md-5" id="projects">
+        <div className="container">
+          {/* <h2 className="section-title font-weight-bold mb-5">
+          Featured Projects
+        </h2> */}
+          <div className="text-center">
+            <Projects></Projects>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }
