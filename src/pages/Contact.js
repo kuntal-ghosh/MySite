@@ -1,6 +1,29 @@
 import React from "react"
 import Layout from "../components/layout"
-
+import {
+  SiJavascript,
+  SiAngular,
+  SiReact,
+  SiNodeDotJs,
+  SiPython,
+  SiDjango,
+  SiNpm,
+  SiYarn,
+  SiWebpack,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiStrapi,
+  SiGithub,
+  SiFacebook,
+  SiGatsby,
+  SiFlutter,
+  SiDart,
+  SiTypescript,
+  SiLinkedin,
+  SiYoutube,
+  SiMedium,
+} from "react-icons/si"
 const Contact = () => {
   return (
     <Layout>
@@ -11,7 +34,9 @@ const Contact = () => {
             <p>
               Interested in hiring me for your project or just want to say hi?
               You can fill in the contact form below or send me an email to{" "}
-              <a href="mailto:#">tarikul711@gmail.com</a>
+              <a href="mailto:#" style={{ color: "green", fontSize: "16px" }}>
+                kuntalghosh.ewu@gmail.com
+              </a>
             </p>
             <p>
               Want to get connected? Follow me on the social channels below.
@@ -19,40 +44,42 @@ const Contact = () => {
             <ul className="list-inline mb-0">
               <li className="list-inline-item mb-3">
                 <a
-                  className="facebook"
                   href="https://www.facebook.com/tarikul.islam.94617999/"
+                  style={{ color: "green", fontSize: "16px" }}
                 >
-                  <i className="fab fa-facebook-f fa-fw fa-lg"></i>
+                  <SiFacebook />
                 </a>
               </li>
-              <li className="list-inline-item mb-3">
+              <li className="list-inline-item">
                 <a
-                  className="linkedin"
-                  href="https://www.linkedin.com/in/md-tarikul-islam-5192b713a/"
+                  href="https://github.com/kuntal-ghosh"
+                  style={{ color: "green", fontSize: "16px" }}
                 >
-                  <i className="fab fa-linkedin-in fa-fw fa-lg"></i>
+                  <SiGithub />
                 </a>
               </li>
-              <li className="list-inline-item mb-3">
-                <a className="github" href="https://github.com/Tarikul711">
-                  <i className="fab fa-github-alt fa-fw fa-lg"></i>
+              <li className="list-inline-item">
+                <a
+                  href="https://medium.com/@kuntalghosh.ewu"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiMedium />
                 </a>
               </li>
-
-              <li className="list-inline-item mb-3">
-                <a className="stack-overflow" href="https://stackoverflow.com/">
-                  <i className="fab fa-stack-overflow fa-fw fa-lg"></i>
+              <li className="list-inline-item">
+                <a
+                  href="https://www.linkedin.com/in/kuntal-ghosh/"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiLinkedin />
                 </a>
               </li>
-              <li className="list-inline-item mb-3">
-                <a className="medium" href="https://medium.com/@tarikul711">
-                  <i className="fab fa-medium-m fa-fw fa-lg"></i>
-                </a>
-              </li>
-
-              <li className="list-inline-item mb-3">
-                <a className="facebook" href="https://medium.com/@tarikul711">
-                  <i className="fab fa-facebook-f fa-fw fa-lg"></i>
+              <li className="list-inline-item">
+                <a
+                  href="https://www.youtube.com/channel/UC96pPZxWZforxHE6yNC8ZtQ?view_as=subscriber"
+                  style={{ color: "green", fontSize: "16px" }}
+                >
+                  <SiYoutube />
                 </a>
               </li>
             </ul>
@@ -100,18 +127,19 @@ const Contact = () => {
                 />
               </div>
               <div className="form-group col-12">
-                <select id="services" className="custom-select" name="services">
+                <select
+                 id="services" className="custom-select" name="services">
                   <option selected>
                     Select a service package you're interested in...
                   </option>
-                  <option value="basic">Native Android Apps</option>
-                  <option value="standard">Native IOS Apps</option>
-                  <option value="premium">Hybrid Apps</option>
-                  <option value="not sure">Android & IOS Apps</option>
+                  <option value="basic">Frontend Web Apps</option>
+                  <option value="standard">Backend Web Apps</option>
+                  <option value="premium">Full-Stack Web Apps</option>
+                  <option value="not sure">Mobile Apps</option>
                 </select>
-                <small className="form-text text-muted pt-1">
-                  <i className="fas fa-info-circle mr-2 text-primary"></i>Want to
-                  know what's included in each package? Check the{" "}
+                {/* <small className="form-text text-muted pt-1">
+                  <i className="fas fa-info-circle mr-2 text-primary"></i>Want
+                  to know what's included in each package? Check the{" "}
                   <a
                     href="../../../devcard/bs4/2-2/services.html"
                     target="_blank"
@@ -119,7 +147,7 @@ const Contact = () => {
                     Services &amp; Pricing
                   </a>{" "}
                   page.
-                </small>
+                </small> */}
               </div>
               <div className="form-group col-12">
                 <label className="sr-only" for="cmessage">
@@ -136,7 +164,10 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="form-group col-12">
-                <button type="submit" className="btn btn-block btn-primary py-2">
+                <button
+                  type="submit"
+                  className="btn btn-block btn-primary py-2"
+                >
                   Send Now
                 </button>
               </div>
