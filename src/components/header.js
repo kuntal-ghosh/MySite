@@ -2,29 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import header_image from "../images/profile_kuntal.jpg"
-import {
-  SiJavascript,
-  SiAngular,
-  SiReact,
-  SiNodeDotJs,
-  SiPython,
-  SiDjango,
-  SiNpm,
-  SiYarn,
-  SiWebpack,
-  SiHtml5,
-  SiCss3,
-  SiSass,
-  SiStrapi,
-  SiGithub,
-  SiGatsby,
-  SiFlutter,
-  SiDart,
-  SiTypescript,
-  SiLinkedin,
-  SiYoutube,
-  SiMedium,
-} from "react-icons/si"
+import { SiGithub, SiLinkedin, SiYoutube, SiMedium } from "react-icons/si"
 const Header = ({ siteTitle }) => (
   // <header
   //   style={{

@@ -1,27 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
 import profile from "../images/profile_img.jpg"
-import asp from "../images/asp.png"
-
 import "react-mdl/extra/material.css"
 import "react-mdl/extra/material.js"
-
 import Layout from "../components/layout"
 import Projects from "../components/Projects"
 import Blog1 from "../images/blog-post-thumb-1.jpg"
-
-import Blog2 from "../images/blog-post-thumb-card-1.jpg"
-
+// import Blog2 from "../images/blog-post-thumb-card-1.jpg"
 import Blog3 from "../images/blog-post-thumb-4.jpg"
 
 // import Image from "../components/image"
 // import SEO from "../components/seo"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faCoffee,
-  faShoppingCart,
-  JsSquare,
-} from "@fortawesome/free-solid-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import {
+//   faCoffee,
+//   faShoppingCart,
+//   JsSquare,
+// } from "@fortawesome/free-solid-svg-icons"
 // import { SiJavascript } from "react-icons"
 
 import {
@@ -29,8 +24,8 @@ import {
   SiAngular,
   SiReact,
   SiNodeDotJs,
-  SiPython,
-  SiDjango,
+  // SiPython,
+  // SiDjango,
   SiNpm,
   SiYarn,
   SiWebpack,
@@ -48,7 +43,7 @@ import {
   SiCplusplus,
 } from "react-icons/si"
 
-import { FaArrowCircleRight } from "react-icons/fa"
+// import { FaArrowCircleRight } from "react-icons/fa"
 // import SiJavascript from "react-icons/lib/fa/beer"
 
 // import { SiJavascript } from "react-icons/fa"
@@ -121,7 +116,6 @@ const IndexPage = () => (
               <Link
                 to="/resume"
                 className="btn btn-secondary mb-3"
-                className="btn btn-secondary mb-3"
                 // href="devcard/bs4/2-2/resume.html"
               >
                 <i className="fas fa-file-alt mr-2"></i>
@@ -133,7 +127,7 @@ const IndexPage = () => (
           <img
             className="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0"
             src={profile}
-            alt="blog picture"
+            alt="rurti"
           />
         </div>
       </div>
@@ -337,11 +331,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-4 mb-5">
             <div className="card blog-post-card">
-              <img
-                className="card-img-top"
-                src={Blog1}
-                alt="kuntal's picture"
-              />
+              <img className="card-img-top" src={Blog1} alt="sdvds" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a
@@ -372,11 +362,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md-4 mb-5">
             <div className="card blog-post-card">
-              <img
-                className="card-img-top"
-                src={Blog2}
-                alt="kuntal's Picture"
-              />
+              <img className="card-img-top" src={Blog1} alt="tgse" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a
@@ -407,7 +393,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md-4 mb-5">
             <div className="card blog-post-card">
-              <img className="card-img-top" src={Blog3} alt="blog picture" />
+              <img className="card-img-top" src={Blog3} alt="blog " />
               <div className="card-body">
                 <h5 className="card-title">
                   <a

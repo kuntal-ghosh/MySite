@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Blog2 from "../images/blog-post-thumb-card-1.jpg"
+// import Blog2 from "../images/blog-post-thumb-card-1.jpg"
 import Img from "gatsby-image"
 
 const Blog = ({ data }) => {
@@ -57,7 +57,7 @@ const Blog = ({ data }) => {
                     <span class="date">Published 2 days ago</span>
                     <span class="time">5 min read</span>
                     <span class="comment">
-                      <a href="#">8 comments</a>
+                      <a href="#comments">8 comments</a>
                     </span>
                   </div>
                   <div class="intro">
@@ -80,11 +80,11 @@ const Blog = ({ data }) => {
           <nav class="blog-nav nav nav-justified my-5">
             <a
               class="nav-link-prev nav-item nav-link d-none rounded-left"
-              href="#"
+              href="#previous"
             >
               Previous<i class="arrow-prev fas fa-long-arrow-alt-left"></i>
             </a>
-            <a class="nav-link-next nav-item nav-link rounded" href="#">
+            <a class="nav-link-next nav-item nav-link rounded" href="#next">
               Next<i class="arrow-next fas fa-long-arrow-alt-right"></i>
             </a>
           </nav>

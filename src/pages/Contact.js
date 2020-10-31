@@ -1,25 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import {
-  SiJavascript,
-  SiAngular,
-  SiReact,
-  SiNodeDotJs,
-  SiPython,
-  SiDjango,
-  SiNpm,
-  SiYarn,
-  SiWebpack,
-  SiHtml5,
-  SiCss3,
-  SiSass,
-  SiStrapi,
   SiGithub,
   SiFacebook,
-  SiGatsby,
-  SiFlutter,
-  SiDart,
-  SiTypescript,
   SiLinkedin,
   SiYoutube,
   SiMedium,
@@ -127,8 +110,7 @@ const Contact = () => {
                 />
               </div>
               <div className="form-group col-12">
-                <select
-                 id="services" className="custom-select" name="services">
+                <select id="services" className="custom-select" name="services">
                   <option selected>
                     Select a service package you're interested in...
                   </option>

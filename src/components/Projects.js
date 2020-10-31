@@ -93,7 +93,6 @@ const Projects = () => {
               style={{
                 color: "#fff",
                 height: "176px",
-                height: "176px",
 
                 background:
                   "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168649/voluteer-network_j3po6k.png) center / cover",

@@ -28,7 +28,7 @@ const Resume = () => {
                 </h2>
                 <div className="resume-tagline mb-3 mb-md-0">
                   {" "}
-                 Software Engineer (Full Stack Web Application Developer)
+                  Software Engineer (Full Stack Web Application Developer)
                 </div>
               </div>
               {/* <!--//resume-title--> */}
@@ -36,15 +36,21 @@ const Resume = () => {
                 <ul className="list-unstyled mb-0">
                   <li className="mb-2">
                     <i className="fas fa-phone-square fa-fw fa-lg mr-2 "></i>
-                    <a className="resume-link">+88 01772 132915</a>
+                    <a href="#phone" className="resume-link">
+                      +88 01772 132915
+                    </a>
                   </li>
                   <li className="mb-2">
                     <i className="fas fa-envelope-square fa-fw fa-lg mr-2"></i>
-                    <a className="resume-link">kuntalghosh.ewu@mail.com</a>
+                    <a href="#mail" className="resume-link">
+                      kuntalghosh.ewu@mail.com
+                    </a>
                   </li>
                   <li className="mb-2">
                     <i className="fas fa-globe fa-fw fa-lg mr-2"></i>
-                    <a className="resume-link">www.kuntal-ghosh.tk</a>
+                    <a href="#mail" className="resume-link">
+                      www.kuntal-ghosh.tk
+                    </a>
                   </li>
                   <li className="mb-0">
                     <i className="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>
@@ -62,14 +68,14 @@ const Resume = () => {
             <div className="media flex-column flex-md-row align-items-center">
               {/* <img className="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="../../../devcard/bs4/2-2/assets/images/resume-profile.png" alt="image"> */}
               <div className="media-body text-left">
-              I am a passionate and pragmatic Software Engineer
-               with one year of professional experience. 
-               I am motivated and enthusiastic by new challenges and 
-               tasks and take excellent approach to achieve success in all projects.
-                I am specialized in JavaScript, Typescript, Html, CSS, Bootstrap,
-                 React.js, and Angular and have experience working with Asp.Net Core, 
-                 Node.js & Flutter. As a lifelong learner, I am always willing to work 
-                 on complex projects with scope for learning.
+                I am a passionate and pragmatic Software Engineer with one year
+                of professional experience. I am motivated and enthusiastic by
+                new challenges and tasks and take excellent approach to achieve
+                success in all projects. I am specialized in JavaScript,
+                Typescript, Html, CSS, Bootstrap, React.js, and Angular and have
+                experience working with Asp.Net Core, Node.js & Flutter. As a
+                lifelong learner, I am always willing to work on complex
+                projects with scope for learning.
               </div>
 
               {/* <!--//media-body--> */}
@@ -87,16 +93,17 @@ const Resume = () => {
                   <div className="item mb-3">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                         Software Engineer
+                        Software Engineer
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                      Enlight Solutions| Dec 2019 – Aug 2020
+                        Enlight Solutions| Dec 2019 – Aug 2020
                       </div>
                     </div>
                     <div className="item-content">
                       <p>
-                        I have contributed as a full stack developer in a HRM product that was built for USA market and some in house product.
-                         I mainly worked as an Angular Developer there.
+                        I have contributed as a full stack developer in a HRM
+                        product that was built for USA market and some in house
+                        product. I mainly worked as an Angular Developer there.
                       </p>
                       <ul className="resume-list">
                         <li>Develop, Design and Debug Application.</li>
@@ -106,7 +113,7 @@ const Resume = () => {
                     </div>
                   </div>
                   {/* <!--//item--> */}
-  
+
                   {/* <!--//item--> */}
                 </section>
                 {/* <!--//work-section--> */}
@@ -117,7 +124,7 @@ const Resume = () => {
                   <div className="item mb-3">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                      Catalyzr	
+                        Catalyzr
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         {/* <a
@@ -126,14 +133,16 @@ const Resume = () => {
                           >
                             Google Play Store
                           </a> */}
-                          Client project
+                        Client project
                       </div>
                     </div>
                     <div className="item-content">
                       <p>
-                      
-This is a HRM software that is built for USA market. I have worked on this project for Enlight Solution. This project is built using modern technology such as Anguar, Asp.Net Core. We had a team of 3 members for this project.
-
+                        This is a HRM software that is built for USA market. I
+                        have worked on this project for Enlight Solution. This
+                        project is built using modern technology such as Anguar,
+                        Asp.Net Core. We had a team of 3 members for this
+                        project.
                       </p>
                     </div>
                   </div>
@@ -141,7 +150,7 @@ This is a HRM software that is built for USA market. I have worked on this proje
                   <div className="item">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                      Travel Buddy	
+                        Travel Buddy
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         Open Source
@@ -149,9 +158,17 @@ This is a HRM software that is built for USA market. I have worked on this proje
                     </div>
                     <div className="item-content">
                       <p>
-                     
-This is an open source application for travel lovers to book hotels around Bangladesh. Travelers will be able to look for available hotels and their information such as price, number of rooms and number of beds etc, in their destination on selected dates .They will also able to see the location of the hotels on google map and book hotels according to their preferences .Users can use social login and user password login for authentication. I developed this application from scratch. React.js is used for developing the application with Node.js and Firebase.
-
+                        This is an open source application for travel lovers to
+                        book hotels around Bangladesh. Travelers will be able to
+                        look for available hotels and their information such as
+                        price, number of rooms and number of beds etc, in their
+                        destination on selected dates .They will also able to
+                        see the location of the hotels on google map and book
+                        hotels according to their preferences .Users can use
+                        social login and user password login for authentication.
+                        I developed this application from scratch. React.js is
+                        used for developing the application with Node.js and
+                        Firebase.
                       </p>
                     </div>
                   </div>
@@ -159,7 +176,7 @@ This is an open source application for travel lovers to book hotels around Bangl
                   <div className="item">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                      Voluteer-Network
+                        Voluteer-Network
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         Open Source
@@ -167,7 +184,16 @@ This is an open source application for travel lovers to book hotels around Bangl
                     </div>
                     <div className="item-content">
                       <p>
-                      This is an open source application for people who wants to help others in different way. People will be able to look for list of Social works that they can do. They will be able to join any category on any date they wish .They will also able to join in multiple tasks and will be able to cancle any task according to their preferences .Users can use social login for authentication. I developed this application from scratch. React.js is used for developing the application with Node.js and Firebase.
+                        This is an open source application for people who wants
+                        to help others in different way. People will be able to
+                        look for list of Social works that they can do. They
+                        will be able to join any category on any date they wish
+                        .They will also able to join in multiple tasks and will
+                        be able to cancle any task according to their
+                        preferences .Users can use social login for
+                        authentication. I developed this application from
+                        scratch. React.js is used for developing the application
+                        with Node.js and Firebase.
                       </p>
                     </div>
                   </div>
@@ -226,7 +252,6 @@ This is an open source application for travel lovers to book hotels around Bangl
                         2012 - 2017
                       </div>
                     </li>
-                    
                   </ul>
                 </section>
                 {/* <!--//education-section--> */}
@@ -303,6 +328,7 @@ This is an open source application for travel lovers to book hotels around Bangl
               </li>
               <li className="list-inline-item mb-lg-0 mr-3">
                 <a
+                  href="#mail"
                   className="resume-link"
                   // href="https://www.linkedin.com/in/md-tarikul-islam-5192b713a/"
                 >
@@ -316,7 +342,7 @@ This is an open source application for travel lovers to book hotels around Bangl
                 </a>
               </li>
               <li className="list-inline-item mb-lg-0 mr-lg-3">
-                <a className="resume-link">
+                <a className="resume-link" href="#mail">
                   <i
                     className="fab fa-twitter-square fa-2x mr-2"
                     data-fa-transform="down-4"
