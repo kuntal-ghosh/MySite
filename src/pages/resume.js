@@ -28,7 +28,7 @@ const Resume = () => {
                 </h2>
                 <div className="resume-tagline mb-3 mb-md-0">
                   {" "}
-                  Full Stack Web Application Developer
+                 Software Engineer (Full Stack Web Application Developer)
                 </div>
               </div>
               {/* <!--//resume-title--> */}
@@ -36,15 +36,15 @@ const Resume = () => {
                 <ul className="list-unstyled mb-0">
                   <li className="mb-2">
                     <i className="fas fa-phone-square fa-fw fa-lg mr-2 "></i>
-                    <a className="resume-link">+88 01733 029989</a>
+                    <a className="resume-link">+88 01772 132915</a>
                   </li>
                   <li className="mb-2">
                     <i className="fas fa-envelope-square fa-fw fa-lg mr-2"></i>
-                    <a className="resume-link">tarikul711@mail.com</a>
+                    <a className="resume-link">kuntalghosh.ewu@mail.com</a>
                   </li>
                   <li className="mb-2">
                     <i className="fas fa-globe fa-fw fa-lg mr-2"></i>
-                    <a className="resume-link">www.tarikul.pro</a>
+                    <a className="resume-link">www.kuntal-ghosh.tk</a>
                   </li>
                   <li className="mb-0">
                     <i className="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>
@@ -62,29 +62,14 @@ const Resume = () => {
             <div className="media flex-column flex-md-row align-items-center">
               {/* <img className="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="../../../devcard/bs4/2-2/assets/images/resume-profile.png" alt="image"> */}
               <div className="media-body text-left">
-                I enjoy creating things that live on the internet, whether that
-                be applications, websites, or anything in between. My goal is to
-                always build products that provide better user experiences
-                pixel-perfect, performant. Shortly after graduating from the
-                <a
-                  className="theme-link"
-                  href="https://www.gre.ac.uk/"
-                  target="_blank"
-                >
-                  University of Greenwich
-                </a>
-                , I joined the engineering team at
-                <a
-                  className="theme-link"
-                  href="https://topofstacksoftware.com/"
-                  target="_blank"
-                >
-                  TopOfStack Software
-                </a>
-                where I work on a wide variety of interesting and meaningful
-                projects on a daily basis. I am passionate about computers and
-                programming since my university life. Currently, I am trying to
-                learn about Data Science and Machine learning.
+              I am a passionate and pragmatic Software Engineer
+               with one year of professional experience. 
+               I am motivated and enthusiastic by new challenges and 
+               tasks and take excellent approach to achieve success in all projects.
+                I am specialized in JavaScript, Typescript, Html, CSS, Bootstrap,
+                 React.js, and Angular and have experience working with Asp.Net Core, 
+                 Node.js & Flutter. As a lifelong learner, I am always willing to work 
+                 on complex projects with scope for learning.
               </div>
 
               {/* <!--//media-body--> */}
@@ -102,131 +87,26 @@ const Resume = () => {
                   <div className="item mb-3">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Senior Software Engineer
+                         Software Engineer
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Google | 2019 - Present
+                      Enlight Solutions| Dec 2019 – Aug 2020
                       </div>
                     </div>
                     <div className="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
-                        Donec quam felis, ultricies nec, pellentesque eu,
-                        pretium quis, sem. Donec pede justo, fringilla vel.
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Donec quam felis.
+                        I have contributed as a full stack developer in a HRM product that was built for USA market and some in house product.
+                         I mainly worked as an Angular Developer there.
                       </p>
                       <ul className="resume-list">
-                        <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                        <li>Aenean commodo ligula eget dolor.</li>
-                        <li>Etiam ultricies nisi vel augue.</li>
+                        <li>Develop, Design and Debug Application.</li>
+                        <li>Developing components using angular.</li>
+                        <li>Developing API using .Net core</li>
                       </ul>
                     </div>
                   </div>
                   {/* <!--//item--> */}
-                  <div className="item mb-3">
-                    <div className="item-heading row align-items-center mb-2">
-                      <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Lead Software Developer
-                      </h4>
-                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Apple | 2016 - 2019
-                      </div>
-                    </div>
-                    <div className="item-content">
-                      <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
-                        Donec quam felis, ultricies nec, pellentesque eu,
-                        pretium quis, sem. Donec pede justo, fringilla vel.
-                      </p>
-                      <ul className="resume-list">
-                        <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                        <li>Aenean commodo ligula eget dolor.</li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/* <!--//item--> */}
-                  <div className="item mb-3">
-                    <div className="item-heading row align-items-center mb-2">
-                      <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Senior Software Developer
-                      </h4>
-                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Dropbox | 2014 - 2016
-                      </div>
-                    </div>
-                    <div className="item-content">
-                      <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
-                      </p>
-                    </div>
-                  </div>
-                  {/* <!--//item--> */}
-                  <div className="item">
-                    <div className="item-heading row align-items-center mb-2">
-                      <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Senior Developer
-                      </h4>
-                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Uber | 2013 - 2014
-                      </div>
-                    </div>
-                    <div className="item-content">
-                      <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus.{" "}
-                      </p>
-                    </div>
-                  </div>
-                  {/* <!--//item--> */}
-                  <div className="item">
-                    <div className="item-heading row align-items-center mb-2">
-                      <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Backend Developer
-                      </h4>
-                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Amazon | 2014 - 2016
-                      </div>
-                    </div>
-                    <div className="item-content">
-                      <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
-                      </p>
-                    </div>
-                  </div>
-                  {/* <!--//item--> */}
-                  <div className="item">
-                    <div className="item-heading row align-items-center mb-2">
-                      <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Frontend Developer
-                      </h4>
-                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Startup | 2013 - 2014
-                      </div>
-                    </div>
-                    <div className="item-content">
-                      <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus.{" "}
-                      </p>
-                    </div>
-                  </div>
+  
                   {/* <!--//item--> */}
                 </section>
                 {/* <!--//work-section--> */}
@@ -237,7 +117,7 @@ const Resume = () => {
                   <div className="item mb-3">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Kids Learn Alphabet
+                      Catalyzr	
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         {/* <a
@@ -246,18 +126,14 @@ const Resume = () => {
                           >
                             Google Play Store
                           </a> */}
+                          Client project
                       </div>
                     </div>
                     <div className="item-content">
                       <p>
-                        The alphabet is a learning application for a preschool
-                        child. Kids can learn & practice the alphabet, number,
-                        math, general knowledge, etc. by using the Application.
-                        This application is available in 8 languages. I
-                        developed this application from scratch & currently
-                        maintain this app. Java used for developing the
-                        application with the jetpack library and customized
-                        animations.
+                      
+This is a HRM software that is built for USA market. I have worked on this project for Enlight Solution. This project is built using modern technology such as Anguar, Asp.Net Core. We had a team of 3 members for this project.
+
                       </p>
                     </div>
                   </div>
@@ -265,7 +141,7 @@ const Resume = () => {
                   <div className="item">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Project Sed Fringilla
+                      Travel Buddy	
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         Open Source
@@ -273,10 +149,9 @@ const Resume = () => {
                     </div>
                     <div className="item-content">
                       <p>
-                        You can use this section for your side projects. Cras
-                        dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                        eleifend tellus. Aenean leo ligula, porttitor eu,
-                        consequat vitae, eleifend ac, enim.
+                     
+This is an open source application for travel lovers to book hotels around Bangladesh. Travelers will be able to look for available hotels and their information such as price, number of rooms and number of beds etc, in their destination on selected dates .They will also able to see the location of the hotels on google map and book hotels according to their preferences .Users can use social login and user password login for authentication. I developed this application from scratch. React.js is used for developing the application with Node.js and Firebase.
+
                       </p>
                     </div>
                   </div>
@@ -284,7 +159,7 @@ const Resume = () => {
                   <div className="item">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                        Project Praesent{" "}
+                      Voluteer-Network
                       </h4>
                       <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                         Open Source
@@ -292,10 +167,7 @@ const Resume = () => {
                     </div>
                     <div className="item-content">
                       <p>
-                        You can use this section for your side projects. Cras
-                        dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                        eleifend tellus. Aenean leo ligula, porttitor eu,
-                        consequat vitae, eleifend ac, enim.
+                      This is an open source application for people who wants to help others in different way. People will be able to look for list of Social works that they can do. They will be able to join any category on any date they wish .They will also able to join in multiple tasks and will be able to cancle any task according to their preferences .Users can use social login for authentication. I developed this application from scratch. React.js is used for developing the application with Node.js and Firebase.
                       </p>
                     </div>
                   </div>
@@ -312,17 +184,16 @@ const Resume = () => {
                   <div className="item">
                     <h4 className="item-title">Technical</h4>
                     <ul className="list-unstyled resume-skills-list">
-                      <li className="mb-2">Java/Kotlin/Dart</li>
-                      <li className="mb-2">Android/Flutter</li>
-                      <li className="mb-2">MySQL/Room DB</li>
-                      <li className="mb-2">Unit Testing</li>
-                      <li className="mb-2">Adobe XD (UX-Basic)</li>
+                      <li className="mb-2">JavaScript/TypeScript</li>
+                      <li className="mb-2">React/Angular</li>
+                      <li className="mb-2">Node.js/Express.js</li>
+                      <li className="mb-2">PostgreSQL/MySQL</li>
+                      <li className="mb-2">MongoDB/ORM/ODM</li>
+                      <li className="mb-2">HTML5/CSS3/SASS</li>
+                      <li className="mb-2">Npm/Yarn/Git/Wepack</li>
                       <li className="mb-2">Object-oriented design</li>
                       <li className="mb-2">
                         Design and implement database structures
-                      </li>
-                      <li className="mb-2">
-                        Lead and deliver complex applications
                       </li>
                     </ul>
                   </div>
@@ -346,32 +217,22 @@ const Resume = () => {
                   <ul className="list-unstyled resume-education-list">
                     <li className="mb-3">
                       <div className="resume-degree font-weight-bold">
-                        MSc in Computer Science
+                        BSc in Computer Science and Engineering
                       </div>
                       <div className="resume-degree-org text-muted">
-                        University College London
+                        East West University
                       </div>
                       <div className="resume-degree-time text-muted">
-                        2010 - 2011
+                        2012 - 2017
                       </div>
                     </li>
-                    <li>
-                      <div className="resume-degree font-weight-bold">
-                        BSc Business Information Technology
-                      </div>
-                      <div className="resume-degree-org text-muted">
-                        University of Greenwich,London
-                      </div>
-                      <div className="resume-degree-time text-muted">
-                        2013 - 2017
-                      </div>
-                    </li>
+                    
                   </ul>
                 </section>
                 {/* <!--//education-section--> */}
-                <section className="education-section py-3">
+                {/* <section className="education-section py-3">
                   <h3 className="text-uppercase resume-section-heading mb-4">
-                    ertificates
+                    Certificates
                   </h3>
                   <ul className="list-unstyled resume-awards-list">
                     <li className="mb-3">
@@ -392,7 +253,7 @@ const Resume = () => {
                       </div>
                     </li>
                   </ul>
-                </section>
+                </section> */}
                 {/* <!--//education-section--> */}
                 <section className="skills-section py-3">
                   <h3 className="text-uppercase resume-section-heading mb-4">

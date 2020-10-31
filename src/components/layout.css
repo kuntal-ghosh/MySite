@@ -10371,6 +10371,7 @@ a.resume-link:hover {
   font-size: 0.75rem;
 }
 .blog-list .item .title {
+  margin-top: -2px;
   font-size: 1.275rem;
 }
 .blog-list .item .title a {
@@ -10380,7 +10381,8 @@ a.resume-link:hover {
   color: #292929;
 }
 .blog-list .item .post-thumb {
-  max-width: 110px;
+  max-width: 250px;
+  height: 175px;
   border-radius: 2px;
 }
 .blog-list .item .intro {

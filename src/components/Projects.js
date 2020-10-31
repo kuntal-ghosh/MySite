@@ -42,16 +42,22 @@ const Projects = () => {
               style={{
                 color: "#fff",
                 height: "176px",
+                flexGrow: 1,
 
                 background:
                   "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168420/travel_guru_ktyevt.png) center / cover",
               }}
             >
-              crwn-cloning
+              Travel Buddy
             </CardTitle>
-            <CardText>
-              crwn-cloning is a E-Commerce Website that is developed using
-              modern technologies such as React.js,Firebase,Sass
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
+              This is an open source application for travel lovers to book
+              hotels around Bangladesh.
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -87,6 +93,7 @@ const Projects = () => {
               style={{
                 color: "#fff",
                 height: "176px",
+                height: "176px",
 
                 background:
                   "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168649/voluteer-network_j3po6k.png) center / cover",
@@ -94,9 +101,15 @@ const Projects = () => {
             >
               crwn-cloning
             </CardTitle>
-            <CardText>
-              crwn-cloning is a E-Commerce Website that is developed using
-              modern technologies such as React.js,Firebase,Sass
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
+              This is an open source application for people who wants to help
+              others in different way. People will be able to look for list of
+              Social works that they can do.
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -142,6 +155,11 @@ const Projects = () => {
             <CardText>
               crwn-cloning is a E-Commerce Website that is developed using
               modern technologies such as React.js,Firebase,Sass
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -187,6 +205,11 @@ const Projects = () => {
             <CardText>
               crwn-cloning is a E-Commerce Website that is developed using
               modern technologies such as React.js,Firebase,Sass
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -228,6 +251,11 @@ const Projects = () => {
             <CardText>
               crwn-cloning is a E-Commerce Website that is developed using
               modern technologies such as React.js,Firebase,Sass
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -272,6 +300,11 @@ const Projects = () => {
               Burger-Builder is a Burger selling resturant website that is
               especialy designed for burger lovers whose love to customize their
               burger according to their desire.
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -318,6 +351,11 @@ const Projects = () => {
               Burger-Builder is a Burger selling resturant website that is
               especialy designed for burger lovers whose love to customize their
               burger according to their desire.
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -360,6 +398,11 @@ const Projects = () => {
             <CardText>
               Monster_Rolodex is a website where you will be able to know about
               your fafourite monsters and also able to search for them .
+              <br />
+              <b>
+                Technology: React.js, Material UI, Google Map ,Context API,
+                Node.js and Firebase.
+              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button

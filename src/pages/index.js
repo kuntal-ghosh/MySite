@@ -319,7 +319,7 @@ const IndexPage = () => (
       {/* <!--//container--> */}
     </section>
 
-    <section className="projects-list px-3 py-5 p-md-5">
+    <section className="projects-list px-3 py-5 p-md-5" id="projects">
       <div className="container">
         <h2 className="section-title font-weight-bold mb-5">
           Featured Projects
