@@ -23,6 +23,8 @@ const Layout = ({ children }) => {
     }
   `)
 
+  document.title="Kuntal's Portfolio";
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />

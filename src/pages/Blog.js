@@ -4,7 +4,14 @@ import Layout from "../components/layout"
 // import Blog2 from "../images/blog-post-thumb-card-1.jpg"
 import Img from "gatsby-image"
 
+// const data = useStaticQuery(graphql`
+//     type StrapiPageContentArticleGallery implements Node {
+//       image: File
+//     };
+
 const Blog = ({ data }) => {
+
+  
   return (
     <Layout>
       <section class="cta-section theme-bg-light py-5">
@@ -41,7 +48,8 @@ const Blog = ({ data }) => {
               <div class="media">
                 <div className="mr-3 img-fluid post-thumb d-none d-md-flex">
                   <Img
-                    fixed={edge.node.image.childImageSharp.fixed}
+                    fixed={edge.node.image.url}
+                    // src={edge.node.image}
                     style={{ height: "100%" }}
                     imgStyle={{ height: "175px", width: "100%" }}
                   />
@@ -50,7 +58,7 @@ const Blog = ({ data }) => {
                 <div class="media-body">
                   <h3 class="title mb-1">
                     <a href="../../../devcard/bs4/2-2/blog-post.html">
-                      Top 3 JavaScript Frameworks
+                      {edge.node.title}
                     </a>
                   </h3>
                   <div class="meta mb-1">
@@ -60,12 +68,7 @@ const Blog = ({ data }) => {
                       <a href="#comments">8 comments</a>
                     </span>
                   </div>
-                  <div class="intro">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies...
-                  </div>
+                  <div class="intro">{edge.node.shortDescription}</div>
                   <a
                     class="more-link"
                     href="../../../devcard/bs4/2-2/blog-post.html"
@@ -135,6 +138,9 @@ const Blog = ({ data }) => {
 
 export default Blog
 
+
+
+
 export const pageQuery = graphql`
   query MyQuery {
     allStrapiArticle {
@@ -142,18 +148,32 @@ export const pageQuery = graphql`
         node {
           id
           title
+          shortDescription
           image {
-            childImageSharp {
-              fixed(width: 250, height: 175) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
-          author {
-            id
+            url
+            width
+            height
           }
         }
       }
     }
   }
 `
+
+// export const pageQuery = graphql`
+//   query MyQuery {
+//     strapiArticle {
+//       title
+//       id
+//       description
+//       shortDescription
+//       image {
+//         childImageSharp {
+//           fixed(width: 250, height: 175) {
+//             ...GatsbyImageSharpFixed
+//           }
+//         }
+//       }
+//     }
+//   }
+// `

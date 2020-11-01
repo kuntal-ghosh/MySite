@@ -26,7 +26,8 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
-    "react-mdl": "^2.1.0"
+    "react-mdl": "^2.1.0",
+    "sharp": "^0.26.2"
   },
   "devDependencies": {
     "prettier": "2.1.1"
