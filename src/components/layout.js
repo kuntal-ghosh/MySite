@@ -38,15 +38,23 @@ const Layout = ({ children }) => {
         <main>
           <div className="main-wrapper">{children}</div>
         </main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
+        {/* <section
+          className="about-me-section p-3 p-lg-5 theme-bg-light"
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+          <footer
+            className="container"
+            style={{
+              marginTop: `2rem`,
+              textAlign: "center",
+              marginRight: "auto",
+              marginLeft: "auto",
+            }}
+          >
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.com">Gatsby</a>
+          </footer>
+        </section> */}
       </div>
     </>
   )

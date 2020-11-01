@@ -54,16 +54,12 @@ const Projects = () => {
               This is an open source application for travel lovers to book
               hotels around Bangladesh.
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
                 colored
                 onClick={() =>
-                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                  handleClick("https://github.com/kuntal-ghosh/travel-hero")
                 }
               >
                 Github
@@ -98,23 +94,21 @@ const Projects = () => {
                   "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168649/voluteer-network_j3po6k.png) center / cover",
               }}
             >
-              crwn-cloning
+              Voluteer Network
             </CardTitle>
             <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
               This is an open source application for people who wants to help
               others in different way. People will be able to look for list of
               Social works that they can do.
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
                 colored
                 onClick={() =>
-                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                  handleClick(
+                    "https://github.com/kuntal-ghosh/volunteer-network-front-end"
+                  )
                 }
               >
                 Github
@@ -149,22 +143,20 @@ const Projects = () => {
                   "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602168653/emajhn_nmw7vx.png) center / cover",
               }}
             >
-              crwn-cloning
+              Ema-John
             </CardTitle>
-            <CardText>
-              crwn-cloning is a E-Commerce Website that is developed using
-              modern technologies such as React.js,Firebase,Sass
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
+              Ema-John is a E-Commerce Website that is developed using modern
+              technologies such as React.js,Firebase,Sass
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
                 colored
                 onClick={() =>
-                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                  handleClick(
+                    "https://github.com/kuntal-ghosh/react-core-concept"
+                  )
                 }
               >
                 Github
@@ -199,29 +191,26 @@ const Projects = () => {
                   "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602167958/catalyzr_ekcbun.png) center / cover",
               }}
             >
-              crwn-cloning
+              Catalyzr
             </CardTitle>
-            <CardText>
-              crwn-cloning is a E-Commerce Website that is developed using
-              modern technologies such as React.js,Firebase,Sass
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
+              Catalyzr is a HRM Solution for making the best use of the Human
+              Resources in any Organization
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
                 colored
-                onClick={() =>
-                  handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
-                }
+
+                // onClick={() =>
+                //   handleClick("https://github.com/kuntal-ghosh/crwn-cloning")
+                // }
               >
                 Github
               </Button>
               <Button
                 colored
-                onClick={() => handleClick("https://crwn-cloning.vercel.app")}
+                onClick={() => handleClick("http://3.232.140.206/catalyzrapp")}
               >
                 Live Demo
               </Button>
@@ -247,14 +236,10 @@ const Projects = () => {
             >
               crwn-cloning
             </CardTitle>
-            <CardText>
-              crwn-cloning is a E-Commerce Website that is developed using
-              modern technologies such as React.js,Firebase,Sass
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
+              Crwn-cloning is a E-Commerce Websit that is developed using modern
+              technologies like react firebase
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -289,21 +274,17 @@ const Projects = () => {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1602169077/mysite_tuqisk.png) center / cover",
+                  "url(https://res.cloudinary.com/dtnbqlhdc/image/upload/v1571219894/burger_app_ppabhl.png) center / cover",
               }}
             >
               Burger-Builder
             </CardTitle>
 
-            <CardText>
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
               Burger-Builder is a Burger selling resturant website that is
               especialy designed for burger lovers whose love to customize their
               burger according to their desire.
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -330,7 +311,7 @@ const Projects = () => {
           </Card>
 
           {/* Project 2 */}
-          <Card
+          {/* <Card
             className="item"
             shadow={5}
             //  style={{ minWidth: "450", margin: "auto" }}
@@ -346,15 +327,11 @@ const Projects = () => {
               Burger-Builder
             </CardTitle>
 
-            <CardText>
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
               Burger-Builder is a Burger selling resturant website that is
               especialy designed for burger lovers whose love to customize their
               burger according to their desire.
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -376,10 +353,10 @@ const Projects = () => {
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card> */}
 
           {/* Project 3 */}
-          <Card
+          {/* <Card
             className="item"
             shadow={5}
             //  style={{ minWidth: "450", margin: "auto" }}
@@ -394,14 +371,10 @@ const Projects = () => {
             >
               Monster_Rolodex
             </CardTitle>
-            <CardText>
+            <CardText style={{ textAlign: "justify", flexGrow: "1" }}>
               Monster_Rolodex is a website where you will be able to know about
               your fafourite monsters and also able to search for them .
               <br />
-              <b>
-                Technology: React.js, Material UI, Google Map ,Context API,
-                Node.js and Firebase.
-              </b>
             </CardText>
             <CardActions className="card-action" border>
               <Button
@@ -424,7 +397,7 @@ const Projects = () => {
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card> */}
         </div>
       )
     } else if (activeTab === 2) {

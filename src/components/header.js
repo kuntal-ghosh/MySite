@@ -146,7 +146,7 @@ const Header = ({ siteTitle }) => (
           </ul>
           <div className="my-2">
             <Link
-              to="/hireme"
+              to="/Contact"
               className="btn btn-primary"
               activeClassName="active_link"
             >

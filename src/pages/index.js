@@ -5,10 +5,10 @@ import "react-mdl/extra/material.css"
 import "react-mdl/extra/material.js"
 import Layout from "../components/layout"
 import Projects from "../components/Projects"
-import Blog1 from "../images/blog-post-thumb-1.jpg"
-// import Blog2 from "../images/blog-post-thumb-card-1.jpg"
-import Blog3 from "../images/blog-post-thumb-4.jpg"
-import Metadata from '../components/metaData';
+import Blog1 from "../images/blog-post-thumb-4.jpg"
+import Blog2 from "../images/blog-post-thumb-2.jpg"
+import Blog3 from "../images/blog-post-thumb-3.jpg"
+import Metadata from "../components/metaData"
 // import Image from "../components/image"
 // import SEO from "../components/seo"
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -50,7 +50,7 @@ import {
 
 const IndexPage = () => (
   <Layout>
-          <Metadata title="Home" description="This is my home page" />
+    <Metadata title="Home" description="This is my home page" />
 
     {/* <SEO title="Home" />
     <h1>Hi people</h1>
@@ -322,6 +322,12 @@ const IndexPage = () => (
         </h2>
         <div className="text-center">
           <Projects></Projects>
+          <div className="text-center py-3">
+            <Link to="/portfolio" className="btn btn-primary">
+              <i className="fas fa-arrow-alt-circle-right mr-2"></i>more
+              projects
+            </Link>
+          </div>
         </div>
       </div>
     </section>
@@ -338,59 +344,65 @@ const IndexPage = () => (
                 <h5 className="card-title">
                   <a
                     className="theme-link"
-                    href="devcard/bs4/2-2/blog-post.html"
+                    href="https://medium.com/@kuntalghosh.ewu/webassembly-for-javascript-developers-is-this-the-end-of-javascript-c3b245d4d144"
+                    target="_blank"
                   >
-                    Top 3 JavaScript Frameworks
+                    WebAssembly is going to replace JavaScript.Is this the end
+                    of JavaScript??
                   </a>
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient...
+                  If you’re a front-end developer👨 , definitely you spend more
+                  time with JavaScript 👨🏾‍💻 than your wife 👰.We always try to
+                  write high performance ⚡️code . but....
                 </p>
                 <p className="mb-0">
                   <a
                     className="more-link"
-                    href="devcard/bs4/2-2/blog-post.html"
+                    href="https://medium.com/@kuntalghosh.ewu/webassembly-for-javascript-developers-is-this-the-end-of-javascript-c3b245d4d144"
+                    target="_blank"
                   >
                     Read more &rarr;
                   </a>
                 </p>
               </div>
-              <div className="card-footer">
+              {/* <div className="card-footer">
                 <small className="text-muted">Published 2 days ago</small>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-4 mb-5">
             <div className="card blog-post-card">
-              <img className="card-img-top" src={Blog1} alt="tgse" />
+              <img className="card-img-top" src={Blog2} alt="tgse" />
               <div className="card-body">
                 <h5 className="card-title">
                   <a
                     className="theme-link"
-                    href="devcard/bs4/2-2/blog-post.html"
+                    href="https://medium.com/@kuntalghosh.ewu/things-you-need-to-know-about-javascript-engine-to-become-a-better-developer-95041dec780"
+                    target="_blank"
                   >
-                    About Remote Working
+                    Things You need to know about JavaScript Engine to become a
+                    better developer
                   </a>
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient...
+                  Right now, We are using JavaScript everywhere.We run code in
+                  our computers and computers know what to do with our
+                  code,isn’t it amazing?Actually, computer itself .....
                 </p>
                 <p className="mb-0">
                   <a
                     className="more-link"
-                    href="devcard/bs4/2-2/blog-post.html"
+                    href="https://medium.com/@kuntalghosh.ewu/things-you-need-to-know-about-javascript-engine-to-become-a-better-developer-95041dec780"
+                    target="_blank"
                   >
                     Read more &rarr;
                   </a>
                 </p>
               </div>
-              <div className="card-footer">
+              {/* <div className="card-footer">
                 <small className="text-muted">Published a week ago</small>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-4 mb-5">
@@ -406,9 +418,9 @@ const IndexPage = () => (
                   </a>
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient...
+                  There are some fancy words are used by developers now a
+                  days.If you ask anyone he or she will say that i want to be a
+                  full stack developer or devopps developer...
                 </p>
                 <p className="mb-0">
                   <a
@@ -419,16 +431,16 @@ const IndexPage = () => (
                   </a>
                 </p>
               </div>
-              <div className="card-footer">
+              {/* <div className="card-footer">
                 <small className="text-muted">Published 3 weeks ago</small>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
         <div className="text-center py-3">
-          <a href="devcard/bs4/2-2/blog-home.html" className="btn btn-primary">
+          <Link to="/Blog" className="btn btn-primary">
             <i className="fas fa-arrow-alt-circle-right mr-2"></i>View Blog
-          </a>
+          </Link>
         </div>
       </div>
     </section>
