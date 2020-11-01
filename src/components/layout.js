@@ -8,13 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Metadata from "../components/metaData"
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query {
       site {
         siteMetadata {
           title
@@ -23,11 +23,11 @@ const Layout = ({ children }) => {
     }
   `)
 
-  document.title="Kuntal's Portfolio";
-
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Metadata title="Home" description="This is my home page" />
+
       <div
       // style={{
       //   margin: `0 auto`,

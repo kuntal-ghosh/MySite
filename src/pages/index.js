@@ -8,7 +8,7 @@ import Projects from "../components/Projects"
 import Blog1 from "../images/blog-post-thumb-1.jpg"
 // import Blog2 from "../images/blog-post-thumb-card-1.jpg"
 import Blog3 from "../images/blog-post-thumb-4.jpg"
-
+import Metadata from '../components/metaData';
 // import Image from "../components/image"
 // import SEO from "../components/seo"
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -50,6 +50,8 @@ import {
 
 const IndexPage = () => (
   <Layout>
+          <Metadata title="Home" description="This is my home page" />
+
     {/* <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
