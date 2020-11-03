@@ -10,7 +10,7 @@ const Resume = () => {
           <h2 className="heading mb-3">Online Resume</h2>
           <a
             className="btn btn-primary"
-            href="../../../resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers.html"
+            href="https://drive.google.com/file/d/1rEACHyH8z4ssqKyYriL45S0CQMzyPd91/view?usp=sharing"
             target="_blank"
           >
             <i className="fas fa-file-pdf mr-2"></i>Download PDF Version
