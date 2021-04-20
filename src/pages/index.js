@@ -78,13 +78,7 @@ const IndexPage = () => (
               Apps.I am motivated and enthusiastic by new challenges and complex
               projects and take excellent approach to achieve success in all
               projects.I write about software development on
-              {/* <a
-                className="link-on-bg ml-1"
-                href="devcard/bs4/2-2/blog-home.html"
-                style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
-              >
-                my blog
-              </a> */}
+             
               <Link
               className="link-on-bg ml-1 mr-1"
               style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
@@ -108,13 +102,6 @@ const IndexPage = () => (
                 portfolio
               </Link>
               and
-              {/* <a
-                className="link-on-bg ml-1"
-                href="devcard/bs4/2-2/resume.html"
-                style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
-              >
-                online resume
-              </a> */}
               <Link
               className="link-on-bg ml-1 mr-1"
               style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
