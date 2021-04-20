@@ -87,13 +87,6 @@ const IndexPage = () => (
                 my blog
               </Link>
               . Want to know how I may help your project? Check out my project
-              {/* <a
-                className="link-on-bg ml-1 mr-1"
-                href="index.html"
-                style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
-              >
-                portfolio
-              </a> */}
               <Link
               className="link-on-bg ml-1 mr-1"
               style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
@@ -105,7 +98,7 @@ const IndexPage = () => (
               <Link
               className="link-on-bg ml-1 mr-1"
               style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
-              to="/portfolio"
+              to="/resume"
               >
               online resume
 
