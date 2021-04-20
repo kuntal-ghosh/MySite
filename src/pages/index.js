@@ -78,35 +78,57 @@ const IndexPage = () => (
               Apps.I am motivated and enthusiastic by new challenges and complex
               projects and take excellent approach to achieve success in all
               projects.I write about software development on
-              <a
+              {/* <a
                 className="link-on-bg ml-1"
                 href="devcard/bs4/2-2/blog-home.html"
                 style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
               >
                 my blog
-              </a>
+              </a> */}
+              <Link
+              className="link-on-bg ml-1 mr-1"
+              style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+              to="/Blog"
+              >
+                my blog
+              </Link>
               . Want to know how I may help your project? Check out my project
-              <a
+              {/* <a
                 className="link-on-bg ml-1 mr-1"
                 href="index.html"
                 style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
               >
                 portfolio
-              </a>
+              </a> */}
+              <Link
+              className="link-on-bg ml-1 mr-1"
+              style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+              to="/portfolio"
+              >
+                portfolio
+              </Link>
               and
-              <a
+              {/* <a
                 className="link-on-bg ml-1"
                 href="devcard/bs4/2-2/resume.html"
                 style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
               >
                 online resume
-              </a>
+              </a> */}
+              <Link
+              className="link-on-bg ml-1 mr-1"
+              style={{ color: "green", fontSize: "16px", fontWeight: "600" }}
+              to="/portfolio"
+              >
+              online resume
+
+              </Link>
             </div>
             {/* <!--//bio--> */}
             <div className="mb-4">
               <Link
                 className="btn btn-primary mr-2 mb-3"
-                to="/portfolio"
+                to="/resume"
                 // style={{ padding: "20px 20px" }}
               >
                 {/* <FaArrowCircleRight
