@@ -90,13 +90,37 @@ const Resume = () => {
                   <h3 className="text-uppercase resume-section-heading mb-4">
                     Work Experiences
                   </h3>
+
                   <div className="item mb-3">
                     <div className="item-heading row align-items-center mb-2">
                       <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
                         Software Engineer
                       </h4>
-                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                        Enlight Solutions| Dec 2019 – Aug 2020
+                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right mt-4">
+                        Gain Solutions | January 2021 – present
+                      </div>
+                    </div>
+                    <div className="item-content">
+                      <p>
+                        Currently i am working as a Software Engineer(Full Stack JavaScript Developer) in this company.
+                      </p>
+                      <ul className="resume-list">
+                        <li>Communication with clients and analyzing the requirements based on milestones.</li>
+                        <li>Reviewing code, work for accuracy and functionality.</li>
+                        <li>Working on Aws Lambda and CI/CD workflow.</li>
+                        <li>Developing new features and solving existing bugs.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+                  <div className="item mb-3">
+                    <div className="item-heading row align-items-center mb-2">
+                      <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
+                        Software Engineer
+                      </h4>
+                      <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right mt-3">
+                        Enlight Solutions | Dec 2019 – Aug 2020
                       </div>
                     </div>
                     <div className="item-content">
@@ -109,6 +133,27 @@ const Resume = () => {
                         <li>Develop, Design and Debug Application.</li>
                         <li>Developing components using angular.</li>
                         <li>Developing API using .Net core</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="item mb-3">
+                    <div className="item-heading row align-items-center mb-2">
+                      <h4 className="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">
+                        Junior Software Engineer
+                      </h4>
+                      <div className="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right mt-4">
+                      CODE STACK SOFT | July 2018 – November 2019
+                      </div>
+                    </div>
+                    <div className="item-content">
+                      <p>
+                        I have worked there as a junior software developer and contributed in developing pos system,Inventory Management System,ERP Solution and Ecommerce website and also contributed in building single page applications.
+                      </p>
+                      <ul className="resume-list">
+                        <li>Developed pos system and Inventory Management System</li>
+                        <li>Contributed in ERP Solution and Ecommerce website</li>
+                        <li>Developed fully customized Components for SPAS</li>
                       </ul>
                     </div>
                   </div>
