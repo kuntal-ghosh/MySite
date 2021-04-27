@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { SiGithub, SiLinkedin, SiYoutube, SiMedium,SiTwitter } from "react-icons/si"
 
 const Resume = () => {
   return (
@@ -28,7 +29,7 @@ const Resume = () => {
                 </h2>
                 <div className="resume-tagline mb-3 mb-md-0">
                   {" "}
-                  Software Engineer (Full Stack Web Application Developer)
+                  Software Engineer (Full Stack Developer)
                 </div>
               </div>
               {/* <!--//resume-title--> */}
@@ -359,15 +360,14 @@ const Resume = () => {
           {/* <!--//resume-body--> */}
           <hr />
           <div className="resume-footer text-center ">
-            <ul className="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+            <ul className="resume-social-list list-inline mx-auto mb-0 d-flex justify-content-around text-muted">
               <li className="list-inline-item mb-lg-0 mr-3">
-                <a className="resume-link" href="https://github.com/Tarikul711">
-                  <i
-                    className="fab fa-github-square fa-2x mr-2"
-                    data-fa-transform="down-4"
-                  ></i>
+                <a className="resume-link" href="https://github.com/kuntal-ghosh">
+                <span style={{ color: "green", fontSize: "12px" ,marginRight: "2px" }}>
+                    <SiGithub/>
+                  </span>
                   <span className="d-none d-lg-inline-block text-muted">
-                    github.com/tarikul711
+                    github
                   </span>
                 </a>
               </li>
@@ -375,25 +375,24 @@ const Resume = () => {
                 <a
                   href="#mail"
                   className="resume-link"
-                  // href="https://www.linkedin.com/in/md-tarikul-islam-5192b713a/"
+                  href="https://www.linkedin.com/in/kuntal-ghosh/"
+                  style={{ color: "green", fontSize: "12px" }}
                 >
-                  <i
-                    className="fab fa-linkedin fa-2x mr-2"
-                    data-fa-transform="down-4"
-                  ></i>
+                  <span style={{ color: "green", fontSize: "12px" ,marginRight: "2px" }}>
+                    <SiLinkedin/>
+                  </span>
                   <span className="d-none d-lg-inline-block text-muted">
-                    linkedin.com/in/md-tarikul-islam-5192b713a
+                    linkedin
                   </span>
                 </a>
               </li>
               <li className="list-inline-item mb-lg-0 mr-lg-3">
                 <a className="resume-link" href="#mail">
-                  <i
-                    className="fab fa-twitter-square fa-2x mr-2"
-                    data-fa-transform="down-4"
-                  ></i>
+                <span style={{ color: "green", fontSize: "12px" ,marginRight: "2px" }}>
+                    <SiTwitter/>
+                  </span>
                   <span className="d-none d-lg-inline-block text-muted">
-                    @twittername
+                    twitter
                   </span>
                 </a>
               </li>
